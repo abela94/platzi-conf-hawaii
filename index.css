@@ -1,0 +1,95 @@
+/* Element Styles */
+
+.btn-platzi {
+    background-color: #97c93e !important;
+    color: white;
+}
+
+.btn-platzi:hover {
+    background-color: #86bb2b !important;
+    color: white;
+}
+
+.alert-platzi {
+    background-color: #e1fbb5 !important;
+    color: #97c93e !important;
+    border-color: #97c93e !important;
+}
+
+
+/* /Element Styles */
+
+
+/* Text Styles */
+
+.text-platzi {
+    color: #97c93e !important;
+}
+
+
+/* /Text Styles */
+
+
+/* Header */
+
+#header img {
+    width: 80px;
+}
+
+
+/* /Header */
+
+
+/* Main */
+
+#carousel {
+    position: relative;
+}
+
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#place-time {
+    background-color: #273b47;
+    color: white;
+}
+
+#place-time img {
+    max-width: 100%;
+}
+
+
+/* /Main */
+
+
+/* Footer */
+
+#footer {
+    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
+}
+
+#footer a {
+    color: white;
+}
+
+
+/* /footer */

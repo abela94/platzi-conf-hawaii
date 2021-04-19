@@ -68,6 +68,11 @@
     height: 100%;
 }
 
+.card img {
+    height: 275px;
+    object-fit: cover;
+}
+
 #place-time {
     background-color: #273b47;
     color: white;
